@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c24">
+  <meta name="description" content="Big space ideas, one small step at a time. Explore six space subjects and try a hands-on mission.">
+  <title>Little Orbit — Space learning missions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="space-noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Little Orbit home"><span class="brand-mark" aria-hidden="true"></span> little orbit<span class="brand-dot">.</span></a>
+    <div class="top-note"><span class="live-dot"></span> YOUR SPACE CLASSROOM</div>
+    <span class="top-code">ORBITAL NETWORK <b>ONLINE</b></span>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-spark"></span> Space learning guide</p>
+        <h1>How we learn<br><em>about space</em><span class="period">.</span></h1>
+        <p class="hero-sub">Explore how six school subjects help us understand space.<br>Select an object on the map to begin a lesson.</p>
+        <a class="jump-button" href="#explore">VIEW THE SPACE MAP <span>↓</span></a>
+        <div class="hero-stats"><span><b>06</b> subjects</span><i></i><span><b>01</b> big universe</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="hero-orbit"></div><div class="hero-planet"><i></i><b></b></div><div class="hero-moon"></div><span class="hero-satellite"></span></div>
+      <div class="hero-bottom"><span>SCROLL TO BEGIN</span><span class="scroll-line"></span><span>01 / 06</span></div>
+    </section>
+
+    <section class="explore section-wrap" id="explore">
+      <div class="section-heading"><div><p class="eyebrow">SIX SUBJECTS, ONE MAP <span class="eyebrow-spark"></span></p><h2>Choose a subject.</h2></div><p class="heading-side">Select an object to open its lesson.</p></div>
+      <div class="galaxy-frame">
+        <div class="map-hud"><span>SECTOR 07 <b>·</b> LOCAL CLUSTER</span><span><i></i> LIVE STAR MAP</span></div>
+        <svg class="galaxy-map" viewBox="0 0 1200 650" role="img" aria-labelledby="mapTitle mapDesc" xmlns="http://www.w3.org/2000/svg">
+          <title id="mapTitle">Interactive galaxy of six space learning subjects</title><desc id="mapDesc">A hand-drawn space scene with a planet, nebula, spacecraft, rover, telescope, and space station. Select any glowing object to open its subject lesson.</desc>
+          <defs>
+            <radialGradient id="nebula"><stop stop-color="#7353ed" stop-opacity=".4"/><stop offset=".55" stop-color="#3a5ac5" stop-opacity=".16"/><stop offset="1" stop-color="#171e46" stop-opacity="0"/></radialGradient>
+            <radialGradient id="world"><stop stop-color="#a5f5f4"/><stop offset=".28" stop-color="#38acba"/><stop offset=".7" stop-color="#23508e"/><stop offset="1" stop-color="#121a45"/></radialGradient>
+            <linearGradient id="ring" x1="0" x2="1"><stop stop-color="#9581ff" stop-opacity=".1"/><stop offset=".5" stop-color="#d5ccff" stop-opacity=".9"/><stop offset="1" stop-color="#74e8ff" stop-opacity=".15"/></linearGradient>
+            <linearGradient id="nebulaLine"><stop stop-color="#ba6dff" stop-opacity="0"/><stop offset=".5" stop-color="#cd8cff" stop-opacity=".8"/><stop offset="1" stop-color="#54d9ff" stop-opacity="0"/></linearGradient>
+            <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <rect width="1200" height="650" fill="#090e25"/><ellipse cx="598" cy="315" rx="515" ry="300" fill="url(#nebula)"/>
+          <g class="map-stars" fill="#e9eeff"><circle cx="53" cy="76" r="1.5"/><circle cx="121" cy="250" r="1"/><circle cx="222" cy="63" r="1.2"/><circle cx="321" cy="162" r="1"/><circle cx="468" cy="72" r="1.4"/><circle cx="569" cy="102" r="1"/><circle cx="682" cy="40" r="1.3"/><circle cx="801" cy="86" r="1"/><circle cx="945" cy="51" r="1.4"/><circle cx="1105" cy="148" r="1"/><circle cx="1137" cy="378" r="1.5"/><circle cx="1042" cy="574" r="1"/><circle cx="918" cy="538" r="1.4"/><circle cx="788" cy="603" r="1"/><circle cx="655" cy="557" r="1.2"/><circle cx="522" cy="611" r="1"/><circle cx="380" cy="541" r="1.6"/><circle cx="231" cy="595" r="1"/><circle cx="90" cy="472" r="1.3"/><circle cx="41" cy="358" r="1"/></g>
+          <path class="nebula-ribbon" d="M65 390 C205 180 309 512 467 303 S713 120 819 329 1013 460 1140 218" fill="none" stroke="url(#nebulaLine)" stroke-width="44" opacity=".2"/>
+          <path id="wideOrbit" class="orbit-line" d="M138 330 C275 78 809 55 1060 305 C827 574 302 554 138 330Z" fill="none" stroke="#7b88d1" stroke-opacity=".24" stroke-dasharray="3 8"/>
+          <path id="crossOrbit" class="orbit-line orbit-line-two" d="M266 125 C478 530 876 509 1000 155" fill="none" stroke="#8be4ff" stroke-opacity=".2" stroke-dasharray="2 9"/>
+          <g class="map-orbiters" aria-hidden="true"><g class="orbiter orbiter-one" transform="translate(710 180)"><circle r="8" fill="#f0b4ff"/><circle r="15" fill="none" stroke="#f0b4ff" stroke-opacity=".4"/></g><g class="orbiter orbiter-two" transform="translate(275 425)"><circle r="6" fill="#80f0ff"/><path d="M-12 0h24" stroke="#80f0ff" stroke-opacity=".45"/></g><g class="orbiter orbiter-three" transform="translate(930 500)"><circle r="5" fill="#d5ff68"/></g></g>
+          <!-- clickable Math planet -->
+          <g class="map-target target-math" tabindex="0" role="button" aria-label="Open Math: orbital thinking" data-subject="0">
+            <ellipse class="target-aura" cx="586" cy="320" rx="129" ry="83"/><ellipse class="planet-ring" cx="586" cy="320" rx="120" ry="38" transform="rotate(-22 586 320)" fill="none" stroke="url(#ring)" stroke-width="5"/>
+            <circle cx="586" cy="320" r="72" fill="url(#world)" stroke="#8beaff" stroke-opacity=".8" stroke-width="1.4"/><path d="M537 298q25-31 49-17t37-4q16 22 41 17M532 340q32-18 52 1t65-3M558 376q23-22 54-8" fill="none" stroke="#b4fff3" stroke-opacity=".42" stroke-width="8"/>
+            <ellipse class="planet-ring ring-front" cx="586" cy="320" rx="120" ry="38" transform="rotate(-22 586 320)" fill="none" stroke="#b6a5ff" stroke-opacity=".78" stroke-width="3" stroke-dasharray="130 160"/>
+            <text x="586" y="429" text-anchor="middle">MATH // ORBITS</text><circle class="ping" cx="586" cy="320" r="93"/>
+          </g>
+          <!-- clickable art nebula -->
+          <g class="map-target target-art" tabindex="0" role="button" aria-label="Open Art and Design: color the cosmos" data-subject="2">
+            <path d="M179 230c-29-34 5-70 40-56 8-42 59-40 68-7 38-26 72 8 53 43 36 30 10 65-27 58-24 37-68 26-67-9-33 27-70 11-67-29Z" fill="#c276ff" opacity=".23" filter="url(#glow)"/><path d="M196 244q43-83 111-45t38 52q-53 40-94 7t-55-14" fill="none" stroke="#e8a8ff" stroke-opacity=".9" stroke-width="2"/><path d="M206 267q56-78 118-17" fill="none" stroke="#76dcff" stroke-opacity=".8" stroke-width="2"/>
+            <text x="244" y="314" text-anchor="middle">ART // NEBULA</text><circle class="target-aura" cx="244" cy="231" r="73"/>
+          </g>
+          <!-- clickable reading constellation -->
+          <g class="map-target target-reading" tabindex="0" role="button" aria-label="Open Reading and Writing: cosmic words" data-subject="1">
+            <path d="M868 123 915 165 972 127 1000 185 945 222 915 165" fill="none" stroke="#b8a5ff" stroke-width="1.5" stroke-opacity=".7"/><g fill="#e5d5ff" filter="url(#glow)"><circle cx="868" cy="123" r="4"/><circle cx="915" cy="165" r="5"/><circle cx="972" cy="127" r="4"/><circle cx="1000" cy="185" r="4"/><circle cx="945" cy="222" r="5"/></g>
+            <text x="928" y="257" text-anchor="middle">WORDS // CONSTELLATION</text><circle class="target-aura" cx="930" cy="168" r="78"/>
+          </g>
+          <!-- clickable engineering satellite -->
+          <g class="map-target target-engineering" tabindex="0" role="button" aria-label="Open Engineering and Technology: spacecraft design" data-subject="3">
+            <g class="satellite-art" transform="translate(345 365) rotate(-20)"><path d="M-20-18h40v36h-40z" fill="#b8d5ea" stroke="#e1fbff"/><path d="M-67-25h38v50h-38zM29-25h38v50H29z" fill="#4471bd" stroke="#9ce7ff"/><path d="M-57-25v50m10-50v50m10-50v50m38-50v50m10-50v50m10-50v50" stroke="#76d6ff" stroke-opacity=".75"/><path d="m0-18 12-24 12 24M0 18l-12 24h24z" fill="#d9caff" stroke="#fff"/></g>
+            <text x="345" y="441" text-anchor="middle">ENGINEERING // SATELLITE</text><circle class="target-aura" cx="345" cy="365" r="72"/>
+          </g>
+          <!-- clickable history rocket -->
+          <g class="map-target target-history" tabindex="0" role="button" aria-label="Open History: milestones in space exploration" data-subject="4">
+            <g class="rocket-art" transform="translate(820 425) rotate(34)"><path d="M0-43c19 22 21 53 0 69-21-16-19-47 0-69Z" fill="#e3e9ff" stroke="#fff"/><circle cy="-10" r="7" fill="#4bd8f2" stroke="#fff"/><path d="m-15 15-19 23 26-8m23-15 19 23-26-8" fill="#b4a5ff" stroke="#e4dbff"/><path class="rocket-flame" d="M-8 26 0 49l8-23" fill="#ffba7c"/></g>
+            <text x="820" y="504" text-anchor="middle">HISTORY // FLIGHT LOG</text><circle class="target-aura" cx="820" cy="425" r="72"/>
+          </g>
+          <!-- clickable teamwork station -->
+          <g class="map-target target-team" tabindex="0" role="button" aria-label="Open Teamwork: the international space station" data-subject="5">
+            <g class="station-art" transform="translate(1040 350)"><path d="M-19-7h38v14h-38zM-6-25h12v50H-6z" fill="#dce5f9" stroke="#fff"/><path d="M-68-18h42v36h-42zM26-18h42v36H26z" fill="#315c9e" stroke="#86dbff"/><path d="M-58-18v36m12-36v36m12-36v36m42-36v36m12-36v36m12-36v36" stroke="#83dfff" stroke-opacity=".7"/><path d="M-19 0h-7m45 0h7" stroke="#fff" stroke-width="4"/></g>
+            <text x="1040" y="420" text-anchor="middle">TEAMWORK // ORBIT LAB</text><circle class="target-aura" cx="1040" cy="350" r="72"/>
+          </g>
+          <g class="map-ui" fill="#8290b8" font-family="monospace" font-size="9"><text x="34" y="34">MAP REF: LO-06</text><text x="1025" y="620">CLICK A SIGNAL TO EXPLORE</text><path d="M35 50h63M1102 590h63" stroke="#64729d" stroke-opacity=".5"/></g>
+        </svg>
+        <div class="map-legend"><span><b class="legend-dot"></b> ACTIVE DISCOVERY</span><span id="mapProgress">0 / 6 MISSIONS</span></div>
+      </div>
+      <div class="progress-dock" id="progressDock" aria-live="polite"></div>
+      <div class="lesson-panel" id="lessonPanel" aria-live="polite"></div>
+    </section>
+    <footer><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span> little orbit<span class="brand-dot">.</span></a><p>Space connections across six school subjects.</p><a href="#top" class="back-top">RETURN TO TOP ↑</a></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
